@@ -1,0 +1,19 @@
+<import src="/pages/template/template.wxml" />
+<view>
+  <swiper indicator-dots='true' vertical='true' indicator-color="#fff">
+    <swiper-item>
+      <image src="/images/vr.png"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="/images/wx.png"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="/images/iqiyi.png"></image>
+    </swiper-item>
+  </swiper>
+  <block wx:for="{{arrayData}}" wx:for-item="item" wx:key="item.id">
+    <view bindtap="goDetail" data-id="{{item.id}}" data-name="dsdsDDDasdd">
+      <template is="read-template" data="{{...item}}" />  
+    </view>
+  </block>
+</view>

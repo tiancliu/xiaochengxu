@@ -1,0 +1,17 @@
+ <template name="read-template">
+  <view class="read-container">
+      <view class="author">
+        <image src="{{item.img.img1}}" class="author-img"></image>
+        <text class="author-text">{{date}}</text> 
+      </view>
+      <text class="title">{{title}}</text>
+      <image class="title-img" src="{{img.img2}}"></image>
+      <text class="title-content">{{content}}</text>
+      <view class="read-like">
+        <image src="{{img.img3}}" class="read-like-img"></image>
+        <text class="read-like-text">{{text1}}</text>
+        <image src="{{item.img.img4}}" class="read-like-img"></image>
+        <text class="read-like-text">{{text2}}</text>
+      </view>
+    </view>
+</template>

@@ -1,0 +1,8 @@
+<!--index.wxml-->
+<view class="container">
+  <image src="/images/person.png"></image>
+  <text class="title">Hello,任我行！</text>
+  <view class="btn" bindtap="onTap">
+    <text class="open">开启任我行的小程序之旅</text>
+  </view>
+</view>

@@ -1,0 +1,10 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/read/read",
+    "pages/readDetail/readDetail"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#405f80"
+  }
+}
